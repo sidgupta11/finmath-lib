@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
 public class Black76ModelDiffblueTest {
 	@Test
 	public void testOptionPrice() {
@@ -82,7 +81,7 @@ public class Black76ModelDiffblueTest {
 		assertEquals(0.8470529101927109, Black76Model.optionImpliedVolatility(10.0, 13731.69376550946, 10.0, 0.5, true));
 	}
 
-	@org.junit.Test
+	@Test
 	public void Test_black76_formula() throws CalculationException
 	{
 		final var forward = 0.05;
