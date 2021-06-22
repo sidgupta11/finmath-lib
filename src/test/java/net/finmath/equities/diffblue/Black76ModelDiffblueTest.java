@@ -1,8 +1,9 @@
-package net.finmath.equities.models;
+package net.finmath.equities.diffblue;
+
+import net.finmath.equities.models.Black76Model;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import org.junit.jupiter.api.Test;
 
 public class Black76ModelDiffblueTest {
 	@Test
