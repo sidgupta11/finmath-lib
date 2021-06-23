@@ -12,7 +12,7 @@ import net.finmath.equities.products.Option;
 
 public class EquityValuationRequest {
 
-	enum CalculationRequestType
+	public enum CalculationRequestType
 	{
 		Price,
 		EqDelta,
